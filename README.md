@@ -1,2 +1,0 @@
-# sarahshavin.github.io
-web
