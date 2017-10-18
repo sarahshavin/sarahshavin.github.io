@@ -18,13 +18,13 @@ p {
 
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 300px;
   line-height: 0;
   height: auto;
   color:"black";
   font-family: "bodoni 72"
 }
-  .parallax-container .section {
+.parallax-container .section {
     width: 100%;
   }
 
@@ -41,7 +41,8 @@ p {
   padding: 0 15px;
 }
 .icon-block .material-icons {
-  font-size: inherit;
+  font-size: 6rem;
+
 }
 
 index-banner {

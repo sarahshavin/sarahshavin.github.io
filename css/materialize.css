@@ -2759,11 +2759,10 @@ video.responsive-video {
 }
 
 .parallax img {
-  position: absolute;
-  left: 50%;
+  position: fixed;
   bottom: 0;
   min-width: 100%;
-  min-height: 50%;
+  min-height: 100%;
 }
 
 .pin-top, .pin-bottom {
@@ -3359,10 +3358,6 @@ nav ul a span.badge {
   margin-right: -0.75rem;
 }
 
-.section {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 
 .section.no-pad {
   padding: 0;
@@ -4206,7 +4201,7 @@ nav i,
 nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
-  font-size: 24px;
+  font-size: 6rem;
   height: 56px;
   line-height: 56px;
 }
@@ -4280,6 +4275,7 @@ nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
 nav .brand-logo i.material-icons {
   float: left;
   margin-right: 15px;
+  font-size: 6rem
 }
 
 nav .nav-title {
