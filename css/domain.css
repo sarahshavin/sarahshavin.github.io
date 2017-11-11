@@ -16,6 +16,10 @@ p {
   font-family: "bodoni 72"
 }
 
+.meetoutfounders{
+  position: center
+
+}
 
 .parallax-container {
   min-height: 300px;
@@ -49,7 +53,6 @@ index-banner {
     font-family:"bodoni 72"
     top: 10%;
   }
-}
 
 index-banner .section {
     font-family:"bodoni 72"
