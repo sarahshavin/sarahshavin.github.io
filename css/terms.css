@@ -28,7 +28,9 @@ body {
   font-size: 14px;
 }
 
-.footer>p {
+footer>p {
   font-size: 12px;
   text-align: left;
+  position: absolute;
+  bottom:0;
 }
