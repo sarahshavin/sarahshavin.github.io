@@ -1,0 +1,31 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.cd-horizontal-timeline {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.cd-horizontal-timeline {
+	line-height: 1;
+}
+.cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
+	list-style: none;
+}
+.cd-horizontal-timeline blockquote, .cd-horizontal-timeline q {
+	quotes: none;
+}
+.cd-horizontal-timeline blockquote:before, .cd-horizontal-timeline blockquote:after,
+.cd-horizontal-timeline q:before, .cd-horizontal-timeline q:after {
+	content: '';
+	content: none;
+}
+.cd-horizontal-timeline table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

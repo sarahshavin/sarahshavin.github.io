@@ -14,32 +14,24 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 350;
 }
 
-
 .intro-header {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #000000;
+  background: url(../img/accessorizedcover.JPG) no-repeat center center;
   background-size: cover;
-
 }
 
 .intro-message {
   position: relative;
-  padding-top: 30%;
+  padding-top: 20%;
   padding-bottom: 20%;
-  text-align: left;
 }
 
 .intro-message>h1 {
   margin: 0;
   font-size: 5em;
-  background-color: #e0d4ca;
-  background: url(../img/legs.jpg) no-repeat center center;
-  background-size: cover;
-  height: 500px;
-
-
 }
 
 .intro-divider {
@@ -49,8 +41,6 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message>h3 {
-    background-color: #e0d4ca;
-    font-family: 'lato';
 }
 
 .btn-secondary {
@@ -97,7 +87,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .content-section-a {
   padding: 50px 0;
-  background-color: #f0ecec;
+  background-color: #f8f8f8;
   font-weight: normal;
 }
 
@@ -196,70 +186,4 @@ p.copyright {
 
 .no-show {
   width: 0px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #000;
-}
-
-#because {
-  margin-top: 45px;
-}
-
-b {
-  font-weight: bold;
-}
-
-.cd-horizontal-timeline .events-content {
-  position: relative;
-}
-.cd-horizontal-timeline .events-content li {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  left: 0;
-  top: 0;
-  transform: translateX(-100%);
-  opacity: 0;
-  animation-duration: 0.4s;
-  animation-timing-function: ease-in-out;
-}
-.cd-horizontal-timeline .events-content li.selected {
-  /* visible event content */
-  position: relative;
-  z-index: 2;
-  opacity: 1;
-  transform: translateX(0);
-}
-.cd-horizontal-timeline .events-content li.enter-right,
-.cd-horizontal-timeline .events-content li.leave-right {
-  animation-name: cd-enter-right;
-}
-.cd-horizontal-timeline .events-content li.enter-left,
-.cd-horizontal-timeline .events-content li.leave-left {
-  animation-name: cd-enter-left;
-}
-.cd-horizontal-timeline .events-content li.leave-right,
-.cd-horizontal-timeline .events-content li.leave-left {
-  animation-direction: reverse;
-}
-@keyframes cd-enter-right {
-  0% {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-@keyframes cd-enter-left {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
 }

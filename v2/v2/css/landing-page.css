@@ -12,8 +12,9 @@ body, html {
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Bodoni 72";
   font-weight: 350;
+  margin-top: 75px;
+  margin-bottom: 15px;
 }
-
 
 .intro-header {
   padding-top: 50px;
@@ -21,25 +22,17 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #000000;
   background-size: cover;
-
 }
 
 .intro-message {
   position: relative;
-  padding-top: 30%;
+  padding-top: 20%;
   padding-bottom: 20%;
-  text-align: left;
 }
 
 .intro-message>h1 {
   margin: 0;
   font-size: 5em;
-  background-color: #e0d4ca;
-  background: url(../img/legs.jpg) no-repeat center center;
-  background-size: cover;
-  height: 500px;
-
-
 }
 
 .intro-divider {
@@ -49,8 +42,6 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message>h3 {
-    background-color: #e0d4ca;
-    font-family: 'lato';
 }
 
 .btn-secondary {
@@ -97,7 +88,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .content-section-a {
   padding: 50px 0;
-  background-color: #f0ecec;
+  background-color: #f8f8f8;
   font-weight: normal;
 }
 
