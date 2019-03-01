@@ -30,9 +30,10 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
-    <link href="css/landing-page.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <link href="css/v2landing-page.css" rel="stylesheet">
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109656007-1"></script>
@@ -76,23 +77,17 @@
 
     <!-- Header -->
     <header class="intro-header">
-      <div class="container">
-        <div class="intro-message">
-          <h1>THISFITS</h1>
-          <h3>document | feedback | humble brag</h3>
-          <hr class="intro-divider">
-          <ul class="list-inline intro-social-buttons">
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <span class="network-name typeform-share button" href="https://thisfits.typeform.com/to/kKOEsA" data-mode="popup" target="_blank">Request Beta</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="http://beta.thisfits.io/" class="btn btn-secondary btn-lg">
-                <span class="network-name">View Demo</span>
-              </a>
-            </li>
-          </ul>
+      <div class="container container-border">
+        <div class="intro-message row">
+          <div class="col-md-3 auto">
+            <img class="img-fluid" id="shoes" src="img/shoes.png"alt="">
+          </div>          
+          <div class="col-md-3 auto">
+            <img class="img-fluid" id="iphone" src="img/iphone.png"alt="">
+          </div>
+         <!-- <div class="col-md-3 auto">
+            <img class="img-fluid" id="iphone" src="img/iphone.png"alt=""> -->
+          </div>
         </div>
       </div>
     </header>
@@ -100,16 +95,16 @@
     <!-- Page Content -->
     <section class="content-section-a" id="why">
 
-      <div class="container">
+      <div class="container container-border">
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-3 auto">
-            <img class="img-fluid" src="img/blackiPhoneevents.png" alt="">
+            <img class="img-fluid" src="img/temp.png" alt="">
           </div>
           <div class="col-lg-4">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Why</h2>
+            <h2 class="section-heading" id="why">Why</h2>
               Each morning presents an opportunity. What we choose to wear is an act of creativity and execution —
               for some, this happens a few times a day.
               <br></br>
@@ -132,58 +127,56 @@
           </div>
         </div>
       </div>
+
+                <!-- <ul class="list-inline intro-social-buttons">
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-secondary btn-lg">
+                <span class="network-name typeform-share button" href="https://thisfits.typeform.com/to/kKOEsA" data-mode="popup" target="_blank">Request Beta</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://beta.thisfits.io/" class="btn btn-secondary btn-lg">
+                <span class="network-name">View Demo</span>
+              </a>
+            </li>
+          </ul> -->
       <!-- /.container -->
     </section>
 
-    <section class="content-section-b" id="who">
 
-      <div class="container">
+      <div class="container custom container-border" id="niche">
         <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-3  auto order-lg">
+          <div class="col-md-8  auto">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Who</h2>
-          </div>
-          <div class="col-md-2 auto ">
-            <img class="img-fluid" src="img/sarah.jpg" alt="">
-          </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-2 auto ">
-            <img class="img-fluid" src="img/ryan.jpg" alt="">
+            <h2 class="section-heading">A niche social network around style.</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-lg-3">
-            <hr class="section-heading-spacer no-show">
-            <div class="clearfix"></div>
-            <h2 id="because" class="section-heading minor">Thisfits™ because...</h2>
-          </div>
-          <div class="col-md-4 auto">
+          <div class="col-md-8 auto">
             <hr class="section-heading-spacer no-show">
             <!-- <div class="clearfix"></div> -->
-            <h4 class="section-heading">Sarah Shavin</h2>
-            <h5 class="section-heading minor"><i>founder</i></h5>
-            <p>I was getting dressed for an event and had no idea what to wear. The lines between business professional to business casual to startup attire are blurring; you could wear a suit, the t-shirt of your company or an elaborate mixed pattern ensemble, and in most cases look equally professional.</p>
+            <p>Each morning presents an opportunity. What we choose to wear is an act of creativity and execution —for some, this happens a few times a day.</p>
 
-            <p>That event reminded me of the prom groups we used to make so no girls wore the same dress, or the fact that major global events have an element of style: Coachella, Cannes Film Festival, even the next Presidential Inauguration.</p>
+            <p>We noticed that the fashion content on existing platforms is almost always finished product - I wore this, or I did this and (indirectly) here’s what I wore.</p>
 
-            <p>I see Thisfits™ as a space for <b>us to share and store our best looks.</b></p>
-          </div>
-          <div class="col-md-4 auto">
-            <hr class="section-heading-spacer no-show">
-            <!-- <div class="clearfix"></div> -->
-            <h4 class="section-heading">Ryan Steed</h4>
-            <h5 class="section-heading minor"><i>lead developer</i></h5>
-            <p>I'm studying computer science and behavioral economics to explore how technology can enhance the human<br> identity - we have the ability to explore interaction through the pieces we choose by day and occasion. </p><br>
-
-            <p> Combined with intuitive user experiences and machine learning algorithms, we can design a unique platform that empowers each user and connects the community at large.</p><br>
-
-            <p>I see Thisfits™ as a space for <b>communalizing fashion across the world.</b></p>
+            <p>But when the dress is picked, and you need help with shoes, or the look is too good not to post, <b>Thisfits™</b> provides a space for sharing and documenting.</p>
           </div>
         </div>
-      </div>
+        
+    </div>
+    <div class="container container-border custom">
+      <div class="row">
+          <div class="col-md-8 auto">
+            <div class="clearfix"></div>
+            <h2 id="fdh" class="section-heading">
+              <span>Document</span>
+              <span id="feedback">Feedback</span>
+              <span>Humblebrag</span>
+            </h2>
+          </div>
+        </div>
+    </div>
       <!-- /.container -->
 
     </section>
