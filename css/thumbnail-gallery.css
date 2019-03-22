@@ -1,0 +1,101 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery (https://startbootstrap.com/template-overviews/thumbnail-gallery)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/blob/master/LICENSE)
+ */
+
+#thumbnail-gallery body {
+  padding-top: 54px;
+  background-color: #F0ECEC;
+
+}
+
+#thumbnail-gallery h1 {
+  font-family: 'bodoni 72';
+  font-size: 64px;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 26.4px;
+  /*margin-left: 45px;*/
+}
+
+#thumbnail-gallery body, #thumbnail-gallery html, #thumbnail-gallery #container {
+min-height:100%;
+}
+
+#thumbnail-gallery #top_div {
+height:50%;
+width:100%;
+background-color:#F0ECEC;
+margin: auto;
+text-align:center;
+}
+
+#thumbnail-gallery #bottom_div {
+height:50%;
+width:100%;
+background-color:#FFFFFF;
+margin: auto;
+text-align:center;
+padding-top: 5%;
+color:#FFFFFF;
+}
+
+#thumbnail-gallery img {
+    background:#EFEAE9;
+    padding: 7px;
+    border:0.1px solid #EFEAE9;
+    max-width: 250px;
+}
+
+
+#thumbnail-gallery h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+#thumbnail-gallery p {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px;
+  color: #BCBEBA
+
+}
+
+#thumbnail-gallery .vertical-text {
+  /*transform: rotate(-90deg);*/
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+
+}
+
+#thumbnail-gallery blockquote {
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#thumbnail-gallery pre {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+
+}
+
+

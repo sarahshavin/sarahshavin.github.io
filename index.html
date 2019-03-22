@@ -24,6 +24,7 @@
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <!-- Bootstrap core CSS -->
+
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
@@ -32,6 +33,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
     <link href="css/v2landing-page.css" rel="stylesheet">
 
 
@@ -96,34 +98,30 @@
     <section class="content-section-a" id="What">
 
       <div class="container container-border">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-3 auto">
-            <img class="img-fluid" src="img/temp.png" alt="">
-          </div>
-          <div class="col-lg-4">
+          <div class="row">
+          <div class="col-lg-8">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading" id="What">Opportunity</h2>
-              Each morning presents an opportunity. What we choose to wear is an act of creativity and execution —
-              for some, this happens a few times a day.
-              <br></br>
-              We noticed that the fashion content on existing platforms is almost always finished product -
-              <i>I wore this</i>, or <i>I did this</i> and (indirectly) <i>here’s what I wore</i>.
-              <br><br>
-              <b>But when the dress is picked, and you
-              need help with shoes, or the look is too good not to post, Thisfits™ provides a space for sharing and documenting.</b></br>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Process</h2>
+            <h2 class="section-heading">The App</h2>
               To communalize the fashion process, we're building a streamlined social media app for real-time fashion <b>feedback</b>
               and <b>documentation</b>. Thisfits™ features social feeds where friends and strangers can collaborate on outfits and pieces for specific <b>occasions</b> and <b>series</b>.
               <br></br>
               Our mobile application utilizes a cutting-edge front- and back-end JavaScript/Cordova framework joined with MongoDB data collections. The Google Maps API maps user posts to locations across the world, and Facebook OAuth support allows users to securely access and manage content.
             </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-3 auto">
+            <img class="img-fluid" src="img/iphone.png" alt="">
+          </div>
+          <div class="col-md-3 auto">
+            <img class="img-fluid" src="img/iphone.png" alt="">
+          </div>
+          <div class="col-md-3 auto">
+             <a href="#" class="btn btn-secondary btn-lg">
+                <span class="network-name typeform-share button" href="https://rbsteed.typeform.com/to/Jtgyc4" data-mode="popup" target="_blank">Request Beta</span>
+              </a>
           </div>
         </div>
       </div>
@@ -143,7 +141,7 @@
       <!-- /.container -->
     </section>
 
-
+    <section>
       <div class="container custom container-border" id="niche">
         <div class="row">
           <div class="col-md-8  auto">
@@ -178,30 +176,72 @@
         </div>
     </div>
       <!-- /.container -->
-
     </section>
-    <!-- /.content-section-b -->
 
-    <section class="content-section-a" id="Who">
+    <section id="thumbnail-gallery">
+      <div id = "container"> 
 
-      <div class="container container-border">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-8  auto">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Brain Trust</h2>
+        <div id="top_div">
+          <div class="row text-center text-lg-center">
+
+            <div class="col-lg-3 col-md-4 col-xs-4">
+              <class="d-block mb-4 h-100">
+                <img class="img" src="img/sarah.jpg" alt="Sarah" border="5">
+                  <p class="vertical-text">Sarah Shavin</p>
+
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-4">
+              <class="d-block mb-4 h-100">
+                <img class="img" src="img/ryan.jpg" alt="Ryan" border="5">
+                  <p class="vertical-text">Ryan Steed</p>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <class="d-block mb-4 h-100">
+              <h1 class="my-4 text-center text-lg-left">Brain Trust</h1>
+
+
+              </a>
+            </div>
+
           </div>
         </div>
-            </section>
-          </div>
-        </div>
-
       </div>
-      <!-- /.container -->
 
+        <div id="bottom_div">
+          <div class="row text-center text-lg-center">
+
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <class="d-block mb-4 h-100">
+                <img class="img" src="img/maggie.jpg" alt="Maggie" border="5">
+                  <p class="vertical-text">Maggie Morris</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <class="d-block mb-4 h-100">
+                <img class="img" src="img/maggie.jpg" alt="Marcus" border="5">
+                  <p class="vertical-text">Marcus Young</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <class="d-block mb-4 h-100">
+                <img class="img" src="img/maggie.jpg" alt="Paige" border="5">
+                  <p class="vertical-text">Paige Nagy</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <class="d-block mb-4 h-100">
+                <img class="img" src="img/maggie.jpg" alt="Jacob" border="5">
+                  <p class="vertical-text">Jacob Cannizzaro</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- /.content-section-a -->
 
     <aside class="banner">
 
